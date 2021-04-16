@@ -1,0 +1,333 @@
+.button.is-branding-grey {
+    background-color: #202025;
+    border-color: transparent;
+    color: #fff
+}
+
+.button.is-branding-grey.is-hovered,.button.is-branding-grey:hover {
+    background-color: #040404;
+    border-color: transparent;
+    color: #fff
+}
+
+.button.is-branding-grey.is-focused,.button.is-branding-grey:focus {
+    border-color: transparent;
+    color: #fff
+}
+
+.button.is-branding-grey.is-focused:not(:active),.button.is-branding-grey:focus:not(:active) {
+    box-shadow: 0 0 0 .125em rgba(10,10,10,.25)
+}
+
+.button.is-branding-grey.is-active,.button.is-branding-grey:active {
+    background-color: #202025;
+    border-color: transparent;
+    color: #fff
+}
+
+.button.is-branding-grey[disabled],fieldset[disabled] .button.is-branding-grey {
+    background-color: #202025;
+    border-color: transparent;
+    box-shadow: none
+}
+
+.button.is-branding-grey.is-inverted {
+    background-color: #fff;
+    color: #0a0a0a
+}
+
+.button.is-branding-grey.is-inverted.is-hovered,.button.is-branding-grey.is-inverted:hover {
+    background-color: #f2f2f2
+}
+
+.button.is-branding-grey.is-inverted[disabled],fieldset[disabled] .button.is-branding-grey.is-inverted {
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: none;
+    color: #0a0a0a
+}
+
+.button.is-branding-grey.is-loading::after {
+    border-color: transparent transparent #fff #fff!important
+}
+
+.button.is-branding-grey.is-outlined {
+    background-color: transparent;
+    border-color: #0a0a0a;
+    color: #0a0a0a
+}
+
+.button.is-branding-grey.is-outlined.is-focused,.button.is-branding-grey.is-outlined.is-hovered,.button.is-branding-grey.is-outlined:focus,.button.is-branding-grey.is-outlined:hover {
+    background-color: #202025;
+    border-color: #0a0a0a;
+    color: #fff
+}
+
+.button.is-branding-grey.is-outlined.is-loading::after {
+    border-color: transparent transparent #0a0a0a #0a0a0a!important
+}
+
+.button.is-branding-grey.is-outlined.is-loading.is-focused::after,.button.is-branding-grey.is-outlined.is-loading.is-hovered::after,.button.is-branding-grey.is-outlined.is-loading:focus::after,.button.is-branding-grey.is-outlined.is-loading:hover::after {
+    border-color: transparent transparent #fff #fff!important
+}
+
+.button.is-branding-grey.is-outlined[disabled],fieldset[disabled] .button.is-branding-grey.is-outlined {
+    background-color: transparent;
+    border-color: #0a0a0a;
+    box-shadow: none;
+    color: #0a0a0a
+}
+
+.button.is-branding-grey.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff
+}
+
+.button.is-branding-grey.is-inverted.is-outlined.is-focused,.button.is-branding-grey.is-inverted.is-outlined.is-hovered,.button.is-branding-grey.is-inverted.is-outlined:focus,.button.is-branding-grey.is-inverted.is-outlined:hover {
+    background-color: #fff;
+    color: #0a0a0a
+}
+
+.button.is-branding-grey.is-inverted.is-outlined.is-loading.is-focused::after,.button.is-branding-grey.is-inverted.is-outlined.is-loading.is-hovered::after,.button.is-branding-grey.is-inverted.is-outlined.is-loading:focus::after,.button.is-branding-grey.is-inverted.is-outlined.is-loading:hover::after {
+    border-color: transparent transparent #0a0a0a #0a0a0a!important
+}
+
+.button.is-branding-grey.is-inverted.is-outlined[disabled],fieldset[disabled] .button.is-branding-grey.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: #fff;
+    box-shadow: none;
+    color: #fff
+}
+
+.notification.is-branding-grey {
+    background-color: #202025;
+    color: #fff
+}
+
+.progress.is-branding-grey::-webkit-progress-value {
+    background-color: #0a0a0a
+}
+
+.progress.is-branding-grey::-moz-progress-bar {
+    background-color: #0a0a0a
+}
+
+.progress.is-branding-grey::-ms-fill {
+    background-color: #0a0a0a
+}
+
+.progress.is-branding-grey:indeterminate {
+    background-image: linear-gradient(to right,#0a0a0a 30%,#ededed 30%)
+}
+
+.table td.is-branding-grey,.table th.is-branding-grey {
+    background-color: #202025;
+    border-color: #0a0a0a;
+    color: #fff
+}
+
+.is-branding-grey.input,.is-branding-grey.textarea {
+    border-color: #0a0a0a
+}
+
+
+.is-branding-grey.input:active,.is-branding-grey.input:focus,.is-branding-grey.is-active.input,.is-branding-grey.is-active.textarea,.is-branding-grey.is-focused.input,.is-branding-grey.is-focused.textarea,.is-branding-grey.textarea:active,.is-branding-grey.textarea:focus {
+    box-shadow: 0 0 0 .125em rgba(10,10,10,.25)
+}
+
+.select.is-branding-grey:not(:hover)::after {
+    border-color: #0a0a0a
+}
+
+.select.is-branding-grey select {
+    border-color: #0a0a0a
+}
+
+.select.is-branding-grey select.is-hovered,.select.is-branding-grey select:hover {
+    border-color: #000
+}
+
+.select.is-branding-grey select.is-active,.select.is-branding-grey select.is-focused,.select.is-branding-grey select:active,.select.is-branding-grey select:focus {
+    box-shadow: 0 0 0 .125em rgba(10,10,10,.25)
+}
+
+.file.is-branding-grey .file-cta {
+    background-color: #202025;
+    border-color: transparent;
+    color: #fff
+}
+
+.file.is-branding-grey.is-hovered .file-cta,.file.is-branding-grey:hover .file-cta {
+    background-color: #040404;
+    border-color: transparent;
+    color: #fff
+}
+
+.file.is-branding-grey.is-focused .file-cta,.file.is-branding-grey:focus .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 .5em rgba(10,10,10,.25);
+    color: #fff
+}
+
+.file.is-branding-grey.is-active .file-cta,.file.is-branding-grey:active .file-cta {
+    background-color: #202025;
+    border-color: transparent;
+    color: #fff
+}
+
+.help.is-branding-grey {
+    color: #0a0a0a
+}
+
+.message.is-branding-grey {
+    background-color: #fafafa
+}
+
+.message.is-branding-grey .message-header {
+    background-color: #202025;
+    color: #fff
+}
+
+.message.is-branding-grey .message-body {
+    border-color: #0a0a0a
+}
+
+.navbar.is-branding-grey {
+    background-color: #202025;
+    color: #fff
+}
+
+.navbar.is-branding-grey .navbar-brand .navbar-link,.navbar.is-branding-grey .navbar-brand>.navbar-item {
+    color: #fff
+}
+
+.navbar.is-branding-grey .navbar-brand .navbar-link.is-active,.navbar.is-branding-grey .navbar-brand .navbar-link:focus,.navbar.is-branding-grey .navbar-brand .navbar-link:hover,.navbar.is-branding-grey .navbar-brand>a.navbar-item.is-active,.navbar.is-branding-grey .navbar-brand>a.navbar-item:focus,.navbar.is-branding-grey .navbar-brand>a.navbar-item:hover {
+    background-color: #202025;
+    color: #fff
+}
+
+.navbar.is-branding-grey .navbar-brand .navbar-link::after {
+    border-color: #fff
+}
+
+.navbar.is-branding-grey .navbar-burger {
+    color: #fff
+}
+
+@media screen and (min-width: 769px) {
+    .navbar.is-branding-grey .navbar-end .navbar-link,.navbar.is-branding-grey .navbar-end>.navbar-item,.navbar.is-branding-grey .navbar-start .navbar-link,.navbar.is-branding-grey .navbar-start>.navbar-item {
+        color:#fff
+    }
+
+    .navbar.is-branding-grey .navbar-end .navbar-link.is-active,.navbar.is-branding-grey .navbar-end .navbar-link:focus,.navbar.is-branding-grey .navbar-end .navbar-link:hover,.navbar.is-branding-grey .navbar-end>a.navbar-item.is-active,.navbar.is-branding-grey .navbar-end>a.navbar-item:focus,.navbar.is-branding-grey .navbar-end>a.navbar-item:hover,.navbar.is-branding-grey .navbar-start .navbar-link.is-active,.navbar.is-branding-grey .navbar-start .navbar-link:focus,.navbar.is-branding-grey .navbar-start .navbar-link:hover,.navbar.is-branding-grey .navbar-start>a.navbar-item.is-active,.navbar.is-branding-grey .navbar-start>a.navbar-item:focus,.navbar.is-branding-grey .navbar-start>a.navbar-item:hover {
+        background-color: #202025;
+        color: #fff
+    }
+
+    .navbar.is-branding-grey .navbar-end .navbar-link::after,.navbar.is-branding-grey .navbar-start .navbar-link::after {
+        border-color: #fff
+    }
+
+    .navbar.is-branding-grey .navbar-item.has-dropdown.is-active .navbar-link,.navbar.is-branding-grey .navbar-item.has-dropdown:focus .navbar-link,.navbar.is-branding-grey .navbar-item.has-dropdown:hover .navbar-link {
+        background-color: #202025;
+        color: #fff
+    }
+
+    .navbar.is-branding-grey .navbar-dropdown a.navbar-item.is-active {
+        background-color: #202025;
+        color: #fff
+    }
+}
+
+.panel.is-branding-grey .panel-heading {
+    background-color: #202025;
+    color: #fff
+}
+
+.panel.is-branding-grey .panel-tabs a.is-active {
+    border-bottom-color: #0a0a0a
+}
+
+.panel.is-branding-grey .panel-block.is-active .panel-icon {
+    color: #0a0a0a
+}
+
+.hero.is-branding-grey {
+    background-color: #202025;
+    color: #fff
+}
+
+.hero.is-branding-grey a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),.hero.is-branding-grey strong {
+    color: inherit
+}
+
+.hero.is-branding-grey .title {
+    color: #fff
+}
+
+.hero.is-branding-grey .subtitle {
+    color: rgba(255,255,255,.9)
+}
+
+.hero.is-branding-grey .subtitle a:not(.button),.hero.is-branding-grey .subtitle strong {
+    color: #fff
+}
+
+@media screen and (max-width: 1023px) {
+    .hero.is-branding-grey .navbar-menu {
+        background-color:#0a0a0a
+    }
+}
+
+.hero.is-branding-grey .navbar-item,.hero.is-branding-grey .navbar-link {
+    color: rgba(255,255,255,.7)
+}
+
+.hero.is-branding-grey .navbar-link.is-active,.hero.is-branding-grey .navbar-link:hover,.hero.is-branding-grey a.navbar-item.is-active,.hero.is-branding-grey a.navbar-item:hover {
+    background-color: #202025;
+    color: #fff
+}
+
+.hero.is-branding-grey .tabs a {
+    color: #fff;
+    opacity: .9
+}
+
+.hero.is-branding-grey .tabs a:hover {
+    opacity: 1
+}
+
+.hero.is-branding-grey .tabs li.is-active a {
+    color: #0a0a0a!important;
+    opacity: 1
+}
+
+.hero.is-branding-grey .tabs.is-boxed a,.hero.is-branding-grey .tabs.is-toggle a {
+    color: #fff
+}
+
+.hero.is-branding-grey .tabs.is-boxed a:hover,.hero.is-branding-grey .tabs.is-toggle a:hover {
+    background-color: rgba(10,10,10,.1)
+}
+
+.hero.is-branding-grey .tabs.is-boxed li.is-active a,.hero.is-branding-grey .tabs.is-boxed li.is-active a:hover,.hero.is-branding-grey .tabs.is-toggle li.is-active a,.hero.is-branding-grey .tabs.is-toggle li.is-active a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #0a0a0a
+}
+
+.hero.is-branding-grey.is-bold {
+    background-image: linear-gradient(141deg,#000 0,#0a0a0a 71%,#181616 100%)
+}
+
+@media screen and (max-width: 768px) {
+    .hero.is-branding-grey.is-bold .navbar-menu {
+        background-image:linear-gradient(141deg,#000 0,#0a0a0a 71%,#181616 100%)
+    }
+}
+
+.bd-notification.is-branding-grey {
+    background-color: #202025;
+    color: #fff
+}

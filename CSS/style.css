@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.is-branding-gradient{
+    color: #ffffff;
+    background: rgb(43,59,198);
+    background: linear-gradient(90deg, rgba(43,59,198,1) 0%, rgba(124,36,188,1) 100%); 
+}
+
+
+
+.is-dark-gradient{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%);
+    
+}
+
+.is-bg-image-header{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%), url("/img/header.jpg");
+}
+
+.is-bg-image-softtest{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%), url("/img/stheader.jpg");
+    background-size: 100%;
+}
+
+.is-bg-image-busint{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%), url("/img/bsheader.jpg");
+    background-size: 100%;
+}
+
+.is-bg-image-techops{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%), url("/img/toheader.jpg");
+    background-size: 100%;
+}
+
+.is-bg-image-aboutus{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8435749299719888) 33%, rgba(255,255,255,0) 100%), url("/img/aboutus.jpg");
+    background-size: 100%;
+}
+
+.grad-card{
+    height:276px;
+    width:100%;
+    justify-content: center;
+    background-size: 100%;
+    
+    
+}
+
+.grad-card .title{
+    color:#ffffff; 
+}
+
+.st-card{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 50%, rgba(255,255,255,0) 100%), url("/img/st.jpg");
+    
+
+}
+
+.bi-card{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 50%, rgba(255,255,255,0) 100%), url("/img/bi.jpg");
+
+}
+
+.to-card{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 50%, rgba(255,255,255,0) 100%), url("/img/to.jpg");
+
+}
+
+.has-min-height{
+    min-height: 300px;
+}
+
+.fills-page{
+    min-height: 89vh;
+}
+
+.is-centered{
+    justify-content: center;
+    text-align: center;
+}
+
+.is-page-centered{
+    margin-top: 15vh;
+    margin-bottom: 22vh;
+}
+
+.has-grey-background{
+    background-color: #a1a1a1;
+}
+
+input{
+    justify-content: right;
+}
+
+footer{
+    margin-top: 20px;
+    border-top: #202025 solid 4px;
+    background-color: #a1a1a1;
+}
